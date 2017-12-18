@@ -657,6 +657,72 @@ by exp-lbrs.ulp</description>
 <pad name="P$39" x="24.13" y="26.67" drill="0.6" shape="square"/>
 <pad name="P$40" x="24.13" y="29.21" drill="0.6" shape="square"/>
 </package>
+<package name="ISP10PIN">
+<description>&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
+series 057 contact pc board low profile headers&lt;p&gt;
+straight</description>
+<wire x1="-1.9" y1="-3.32" x2="-1.9" y2="-4.03" width="0.2032" layer="21"/>
+<wire x1="1.9" y1="-3.32" x2="1.9" y2="-4.03" width="0.2032" layer="21"/>
+<wire x1="-8.77" y1="-1.97" x2="-8.07" y2="-3.04" width="0.4064" layer="21"/>
+<wire x1="-8.07" y1="-3.04" x2="-7.37" y2="-1.97" width="0.4064" layer="21"/>
+<wire x1="-7.37" y1="-1.97" x2="-8.77" y2="-1.97" width="0.4064" layer="21"/>
+<wire x1="-10.21" y1="-4.1" x2="-10.21" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="-10.21" y1="-4.1" x2="10.21" y2="-4.1" width="0.2032" layer="21"/>
+<wire x1="10.21" y1="-4.1" x2="10.21" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="10.21" y1="4.1" x2="-10.21" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="-9.41" y1="-3.3" x2="-9.41" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-9.41" y1="3.3" x2="9.41" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="9.41" y1="3.3" x2="9.41" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="9.41" y1="-3.3" x2="1.9" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-1.9" y1="-3.3" x2="-9.41" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-10.21" y1="4.1" x2="-9.41" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-10.21" y1="-4.1" x2="-9.41" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="10.21" y1="4.1" x2="9.41" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="9.41" y1="-3.3" x2="10.21" y2="-4.1" width="0.2032" layer="21"/>
+<pad name="1" x="-5.08" y="-1.27" drill="1" shape="octagon"/>
+<pad name="2" x="-5.08" y="1.27" drill="1" shape="octagon"/>
+<pad name="3" x="-2.54" y="-1.27" drill="1" shape="octagon"/>
+<pad name="4" x="-2.54" y="1.27" drill="1" shape="octagon"/>
+<pad name="5" x="0" y="-1.27" drill="1" shape="octagon"/>
+<pad name="6" x="0" y="1.27" drill="1" shape="octagon"/>
+<text x="-5.06" y="-6.88" size="1.778" layer="25">&gt;NAME</text>
+<text x="-5.81" y="4.55" size="1.778" layer="27">&gt;VALUE</text>
+<pad name="7" x="2.54" y="-1.27" drill="1" shape="octagon"/>
+<pad name="8" x="2.54" y="1.27" drill="1" shape="octagon"/>
+<pad name="9" x="5.08" y="-1.27" drill="1" shape="octagon"/>
+<pad name="10" x="5.08" y="1.27" drill="1" shape="octagon"/>
+</package>
+<package name="ISP6PIN">
+<description>&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
+series 057 contact pc board low profile headers&lt;p&gt;
+straight</description>
+<wire x1="-1.9" y1="-3.32" x2="-1.9" y2="-4.03" width="0.2032" layer="21"/>
+<wire x1="1.9" y1="-3.32" x2="1.9" y2="-4.03" width="0.2032" layer="21"/>
+<wire x1="-4.96" y1="-1.97" x2="-4.26" y2="-3.04" width="0.4064" layer="21"/>
+<wire x1="-4.26" y1="-3.04" x2="-3.56" y2="-1.97" width="0.4064" layer="21"/>
+<wire x1="-3.56" y1="-1.97" x2="-4.96" y2="-1.97" width="0.4064" layer="21"/>
+<wire x1="-7.67" y1="-4.1" x2="-7.67" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="-7.67" y1="-4.1" x2="7.67" y2="-4.1" width="0.2032" layer="21"/>
+<wire x1="7.67" y1="-4.1" x2="7.67" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="7.67" y1="4.1" x2="-7.67" y2="4.1" width="0.2032" layer="21"/>
+<wire x1="-6.87" y1="-3.3" x2="-6.87" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-6.87" y1="3.3" x2="6.87" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="6.87" y1="3.3" x2="6.87" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="6.87" y1="-3.3" x2="1.9" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-1.9" y1="-3.3" x2="-6.87" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-7.67" y1="4.1" x2="-6.87" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-7.67" y1="-4.1" x2="-6.87" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="7.67" y1="4.1" x2="6.87" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="6.87" y1="-3.3" x2="7.67" y2="-4.1" width="0.2032" layer="21"/>
+<pad name="1" x="-2.54" y="-1.27" drill="1" shape="octagon"/>
+<pad name="2" x="-2.54" y="1.27" drill="1" shape="octagon"/>
+<pad name="3" x="0" y="-1.27" drill="1" shape="octagon"/>
+<pad name="4" x="0" y="1.27" drill="1" shape="octagon"/>
+<pad name="5" x="2.54" y="-1.27" drill="1" shape="octagon"/>
+<pad name="6" x="2.54" y="1.27" drill="1" shape="octagon"/>
+<text x="-5.06" y="-6.88" size="1.778" layer="25">&gt;NAME</text>
+<text x="-5.81" y="4.55" size="1.778" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SOIC8-200MIL">
@@ -709,6 +775,18 @@ by exp-lbrs.ulp</description>
 <wire x1="5.08" y1="-16.51" x2="6.35" y2="-16.51" width="0.254" layer="94" style="shortdash"/>
 <wire x1="5.08" y1="-13.97" x2="6.35" y2="-13.97" width="0.254" layer="94" style="shortdash"/>
 </symbol>
+<symbol name="ISP">
+<wire x1="-2.54" y1="0" x2="-2.54" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="0" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<pin name="MISO" x="-7.62" y="12.7" length="middle"/>
+<pin name="VCC" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="SCK" x="-7.62" y="7.62" length="middle"/>
+<pin name="MOSI" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="RST" x="-7.62" y="2.54" length="middle"/>
+<pin name="GND" x="20.32" y="2.54" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SOIC8_200MIL_PROG">
@@ -745,6 +823,41 @@ by exp-lbrs.ulp</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="ISP" prefix="X">
+<description>&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
+6-pin series 057 contact pc board low profile headers</description>
+<gates>
+<gate name="G$1" symbol="ISP" x="-5.08" y="-7.62"/>
+</gates>
+<devices>
+<device name="10P" package="ISP10PIN">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="MISO" pad="2"/>
+<connect gate="G$1" pin="MOSI" pad="3"/>
+<connect gate="G$1" pin="RST" pad="4"/>
+<connect gate="G$1" pin="SCK" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="6PIN" package="ISP6PIN">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="MISO" pad="2"/>
+<connect gate="G$1" pin="MOSI" pad="3"/>
+<connect gate="G$1" pin="RST" pad="4"/>
+<connect gate="G$1" pin="SCK" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -761,6 +874,7 @@ by exp-lbrs.ulp</description>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="U1" library="ATtami" deviceset="ARDUINOR3" device="-BPLACE" value="ARDUINOR3-BPLACE"/>
 <part name="U$1" library="attniy85_prog_shield" deviceset="SOIC8_200MIL_PROG" device=""/>
+<part name="X1" library="attniy85_prog_shield" deviceset="ISP" device="10P"/>
 </parts>
 <sheets>
 <sheet>
@@ -771,6 +885,7 @@ by exp-lbrs.ulp</description>
 <instance part="FRAME1" gate="G$2" x="-157.48" y="0"/>
 <instance part="U1" gate="G$1" x="-259.08" y="111.76" rot="MR270"/>
 <instance part="U$1" gate="G$1" x="-195.58" y="114.3"/>
+<instance part="X1" gate="G$1" x="-193.04" y="58.42"/>
 </instances>
 <busses>
 </busses>
@@ -785,6 +900,11 @@ by exp-lbrs.ulp</description>
 <pinref part="U1" gate="G$1" pin="3V"/>
 <wire x1="-228.6" y1="116.84" x2="-220.98" y2="116.84" width="0.1524" layer="91"/>
 <label x="-226.06" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="VCC"/>
+<wire x1="-172.72" y1="71.12" x2="-162.56" y2="71.12" width="0.1524" layer="91"/>
+<label x="-165.1" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -801,6 +921,11 @@ by exp-lbrs.ulp</description>
 <wire x1="-203.2" y1="88.9" x2="-208.28" y2="88.9" width="0.1524" layer="91"/>
 <label x="-213.36" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="GND"/>
+<wire x1="-172.72" y1="60.96" x2="-162.56" y2="60.96" width="0.1524" layer="91"/>
+<label x="-165.1" y="60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCK" class="0">
 <segment>
@@ -812,6 +937,11 @@ by exp-lbrs.ulp</description>
 <pinref part="U$1" gate="G$1" pin="P$13"/>
 <wire x1="-167.64" y1="99.06" x2="-162.56" y2="99.06" width="0.1524" layer="91"/>
 <label x="-162.56" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="SCK"/>
+<wire x1="-200.66" y1="66.04" x2="-210.82" y2="66.04" width="0.1524" layer="91"/>
+<label x="-210.82" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -825,6 +955,11 @@ by exp-lbrs.ulp</description>
 <wire x1="-167.64" y1="93.98" x2="-162.56" y2="93.98" width="0.1524" layer="91"/>
 <label x="-162.56" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="MISO"/>
+<wire x1="-200.66" y1="71.12" x2="-210.82" y2="71.12" width="0.1524" layer="91"/>
+<label x="-210.82" y="71.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
@@ -837,6 +972,11 @@ by exp-lbrs.ulp</description>
 <wire x1="-167.64" y1="88.9" x2="-162.56" y2="88.9" width="0.1524" layer="91"/>
 <label x="-162.56" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="MOSI"/>
+<wire x1="-172.72" y1="66.04" x2="-162.56" y2="66.04" width="0.1524" layer="91"/>
+<label x="-165.1" y="66.04" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
@@ -848,6 +988,11 @@ by exp-lbrs.ulp</description>
 <pinref part="U$1" gate="G$1" pin="P$7"/>
 <wire x1="-203.2" y1="104.14" x2="-208.28" y2="104.14" width="0.1524" layer="91"/>
 <label x="-213.36" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="RST"/>
+<wire x1="-200.66" y1="60.96" x2="-210.82" y2="60.96" width="0.1524" layer="91"/>
+<label x="-210.82" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NC" class="0">
